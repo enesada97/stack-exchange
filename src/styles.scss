@@ -1,1 +1,162 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 100%;
+}
+.example-h2 {
+  margin: 10px;
+}
+
+.example-section {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  height: 60px;
+}
+
+.example-margin {
+  margin: 0 10px;
+}
+
+.example-radio-group {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
+}
+
+.example-radio-button {
+  margin: 5px;
+}
+
+.advance-validation .error-msg {
+  margin-top: -15px;
+}
+.mat-radio-button ~ .mat-radio-button {
+  margin-left: 16px;
+}
+.mat-radio-label {
+  margin-bottom: 0px;
+}
+.mat-datepicker-content-touch .mat-calendar {
+  width: 50vh !important;
+  height: 57vh !important;
+}
+.mat-datepicker-toggle-default-icon {
+  width: 1.4em !important;
+}
+.mat-form-field {
+  .date-icon {
+    cursor: pointer;
+  }
+}
+.mat-form-field-prefix,
+.mat-form-field-suffix {
+  color: rgba(0, 0, 0, 0.54);
+}
+.btn-tbl-description {
+  background-color: #48bcff;
+  height: 30px !important;
+  width: 30px !important;
+  margin: 2px !important;
+  line-height: 30px !important;
+  color: #fff;
+
+  // box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2) !important;
+  .material-icons {
+    font-size: 16px !important;
+  }
+
+  &:hover {
+    background-color: #0a75b3;
+    color: #fff;
+  }
+
+  &:focus {
+    background-color: #0a75b3;
+  }
+}
+.materialTableHeader {
+  padding: 10px 20px;
+  -webkit-box-align: center;
+  align-items: center;
+  border-color: #e6e9ed;
+  background-color: #ebebee;
+  height: 70px;
+  min-width: 800px;
+
+  .header-buttons {
+    position: absolute;
+    right: 0px;
+    padding: 6px 8px 8px 8px;
+
+    li {
+      display: inline-block;
+    }
+  }
+
+  .header-buttons-left {
+    position: absolute;
+    list-style: none;
+    padding-top: 3px;
+
+    li {
+      display: inline-block;
+    }
+
+    .searchbox {
+      position: relative;
+    }
+
+    ::placeholder {
+      color: rgba(0, 0, 0, 0.54);
+    }
+
+    .search-icon {
+      position: absolute;
+      top: 10px;
+      padding-left: 10px;
+      color: rgba(0, 0, 0, 0.54);
+    }
+
+    input.search-field {
+      font-weight: 500;
+      color: rgba(0, 0, 0, 0.54);
+      border-radius: 25px;
+      border: 0;
+      height: 45px;
+      padding: 8px 8px 8px 50px;
+      width: 250px;
+      background: #ffffff;
+      transition: background 0.2s, width 0.2s;
+
+      &:hover {
+        background: #fffefe;
+      }
+
+      // &:focus {
+      //   outline: none;
+      //   width: 380px;
+      //   color: #212121;
+      //   &:hover {
+      //     background: #f7f7f7;
+      //   }
+      // }
+    }
+  }
+
+  h2 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: normal;
+    color: #5b626b;
+  }
+}
+
